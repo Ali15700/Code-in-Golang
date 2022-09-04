@@ -1,9 +1,6 @@
 
-# 100 Days of DevOps
-
-I've decided to step in the community of DevOps.This repository will be the documentation of my DevOps journey.
-
 # Getting started with Golang
+Today was my first day to learn Go Language.I shared all the details what I learned today. 
 
 Golang is the most common tool among DevOps professionals.The popular DevOps tools are written in Go, such as Docker, and even the open-source container orchestration system Kubernetes is built on go.
 
@@ -63,9 +60,15 @@ This is how you can use data types
 To run this project
 
 ```bash
-  go run findAge.go
+  go run calculator.go
 ```
+### Output
 
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run findAge.go
+Enter the year of birth:2000
+Your age is: 22
+```
 
 ## 🔗 Connect with me
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Ali15700)
