@@ -63,7 +63,7 @@ This is how you can use data types
 To run this project
 
 ```bash
-  go run calculator.go
+  go run findAge.go
 ```
 
 
