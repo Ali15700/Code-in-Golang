@@ -55,13 +55,48 @@ This is how you can use data types
   var d string = "Hi!"  // String
 
 
+## Switch in Go
+
+The difference in **switch statement in GO** and other PL's is that it only runs the matched case so it does not need a break statement.
+
+#### Working 
+
+👉 *Switch Expression*'s value  is compared with the values of each case
+
+👉 If it matches with corresponding value then associated code block will be executed otherwise it will run **default** code block.
+
+👉 **All the case values should have the same type as the switch expression** otherwise it will through an **error**
+## IF ELSE Condition
+
+A condition can be either **true** or **false**
+
+👉 **If** code block will be always executed if condition is **true** otherwise **else**  code block will be executed.
+
+👉 **else if** will be used when you have to check multiple conditions and executed **true** condition.
+
+## Loops
+
+👉 When you have to run same piece code over and over then you use loops.
+
+👉 Each execution of a loop is called an iteration.
+
+👉 **For** loop is the only loop in *GO*
 ## Deployment
 
-To run this project
+To run these projects
 
 ```bash
   go run findAge.go
 ```
+
+```bash
+  go run switchDays.go
+```
+
+```bash
+  go run largestNumber.go
+```
+
 ### Output
 
 ```bash
@@ -69,7 +104,15 @@ PS C:\Users\Beast\Desktop\MyProjects\go> go run findAge.go
 Enter the year of birth:2000
 Your age is: 22
 ```
-
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run switchDays.go
+Enter the Name of Week Day:Thursday
+Test the code
+```
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run largestNumber.go
+Largest Value:4325
+```
 ## 🔗 Connect with me
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Ali15700)
 
