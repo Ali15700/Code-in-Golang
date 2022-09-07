@@ -55,13 +55,87 @@ This is how you can use data types
   var d string = "Hi!"  // String
 
 
+## Switch in Go
+
+The difference in **switch statement in GO** and other PL's is that it only runs the matched case so it does not need a break statement.
+
+#### Working 
+
+👉 *Switch Expression*'s value  is compared with the values of each case
+
+👉 If it matches with corresponding value then associated code block will be executed otherwise it will run **default** code block.
+
+👉 **All the case values should have the same type as the switch expression** otherwise it will through an **error**
+## IF ELSE Condition
+
+A condition can be either **true** or **false**
+
+👉 **If** code block will be always executed if condition is **true** otherwise **else**  code block will be executed.
+
+👉 **else if** will be used when you have to check multiple conditions and executed **true** condition.
+
+## Loops
+
+👉 When you have to run same piece code over and over then you use loops.
+
+👉 Each execution of a loop is called an iteration.
+
+👉 **For** loop is the only loop in *GO*
+## Function in Go
+
+Function is used to repeatedly call the same block of code.
+
+Function will be executed when we call them.
+
+### Types of Function
+
+👉 Create/Call Function [Click here](https://www.w3schools.com/go/go_functions.php)
+
+
+👉 Parameters/Arguments [Click here](https://www.w3schools.com/go/go_function_parameters.php)
+
+
+👉 Return Value from Function [Click here](https://www.w3schools.com/go/go_function_returns.php)
+
+
+👉 Recursive Functions [Click here](https://www.w3schools.com/go/go_function_recursion.php)
+
+## Struct in Go
+
+👉 Struct method is used to store multiple values of different data types into a single variable.
+
+👉 Dot operator (.) b/w the variable name and member is used to access any member of structure
+
+👉 You can also pass stuctname as an argument in function
+## Maps in Go
+
+👉 Maps store data values with keys pairs
+
+👉 A map is an unordered and changeable collection that does not allow duplicates.
+
+👉 Maps hold references to an underlying hash table.
 ## Deployment
 
-To run this project
+To run these projects
 
 ```bash
   go run findAge.go
 ```
+
+```bash
+  go run switchDays.go
+```
+
+```bash
+  go run largestNumber.go
+```
+```bash
+  go run empolyeeData.go
+```
+```bash
+  go run carInfo.go
+```
+
 ### Output
 
 ```bash
@@ -69,7 +143,33 @@ PS C:\Users\Beast\Desktop\MyProjects\go> go run findAge.go
 Enter the year of birth:2000
 Your age is: 22
 ```
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run switchDays.go
+Enter the Name of Week Day:Thursday
+Test the code
+```
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run largestNumber.go
+Largest Value:4325
+```
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run empolyeeData.go
+Empolyee Name:AliRaza
+Empolyee Age:22
+Empolyee job:SE
+Empolyee salary:7000
 
+
+-----------Empolyee Details---------
+Name:  AliRaza
+Age:  22
+Job:  SE
+Salary:  7000
+```
+```bash
+PS C:\Users\Beast\Desktop\MyProjects\go> go run carInfo.go      
+ Details map[Car Owner:Ali Raza Car brand:Bugatti Car model:Chiron Make year:2021]
+ ```
 ## 🔗 Connect with me
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Ali15700)
 
