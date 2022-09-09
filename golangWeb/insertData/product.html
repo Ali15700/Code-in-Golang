@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Details</title>
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+      <h1>Mobile Product</h1>
+      <ul>
+          <li>{{.Name}}</li><li> Id#:{{.ProdID}}</li>
+          <li>${{.Cost}}</li>
+          <li>
+              Specs
+              <ul>
+                  <li>Size: {{.Specs.Size}}</li>
+                  <li>Weight: {{.Specs.Weight}}</li>
+                  <li>Description: {{.Specs.Desc}}</li>
+              </ul>
+          </li>
+      </ul>
+  </body>
+</html>
