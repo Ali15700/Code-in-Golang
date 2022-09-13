@@ -160,7 +160,7 @@ I've heard Go has excellent built-in support for web dev.
 
 # Gin
 
-👉 Gin is a web framework written in Go (Golang
+👉 Gin is a web framework written in Go 
 
 👉 Gin allows you to build web applications and microservices in Go. It contains a set of commonly used functionalities (e.g., routing, middleware support, rendering, etc.)
 ## Deployment
