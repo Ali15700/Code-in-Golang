@@ -114,10 +114,59 @@ Function will be executed when we call them.
 👉 A map is an unordered and changeable collection that does not allow duplicates.
 
 👉 Maps hold references to an underlying hash table.
+# Web Dev in Go
+
+I've heard Go has excellent built-in support for web dev.
+
+#### lets explore together 😎
+
+
+
+
+## Basic Https 
+
+👉 Registers the handler function for the given pattern in the DefaultServeMux.
+
+👉 ListenAndServe listens on the TCP network address addr and then calls Serve with handler to handle requests on incoming connections
+
+👉 ServeMux is an HTTP request multiplexer. It matches the URL of each incoming request against a list of registered patterns and calls the handler for the pattern that most closely matches the URL.
+
+👉 Handler function that responds to client http requests
+## Template Parsing
+
+👉 template ParseFiles(Filename) will used to add Path of the file.
+
+
+### Inserting Data 
+
+👉 {{.}}	Renders the root element
+
+👉 {{.Attribute}}	Renders the Attribute of struct that you send in ExecuteTemplate function.
+
+
+## Range
+👉 {{range .List}} {{.}} {{end}}	Loops over all “List” field and renders each using {{.}}
+
+#### Range with Indexing
+👉 {{range $index, $element := .}}
+
+👉 First Argument always be index and next Argument will be Value/element.
+
+## Template Nesting
+
+👉 In Nested Template you will define a template into another template.
+
+👉 For further clarification you can see code on nested template.
+
+## Gin
+
+👉 Gin is a web framework written in Go (Golang
+
+👉 Gin allows you to build web applications and microservices in Go. It contains a set of commonly used functionalities (e.g., routing, middleware support, rendering, etc.)
 ## Deployment
 
 To run these projects
-
+#### Basic codes
 ```bash
   go run findAge.go
 ```
@@ -135,7 +184,25 @@ To run these projects
 ```bash
   go run carInfo.go
 ```
-
+#### Web Dev codes
+```bash
+  go run basicHttps.go
+```
+```bash
+  go run main.go    // To run the template parsing code
+```
+```bash
+  go run insertData.go    
+```
+```bash
+  go run range.go    
+```
+```bash
+  go run indexrange.go    
+```
+```bash
+  go run nestedtemp.go    
+```
 ### Output
 
 ```bash
@@ -170,6 +237,20 @@ Salary:  7000
 PS C:\Users\Beast\Desktop\MyProjects\go> go run carInfo.go      
  Details map[Car Owner:Ali Raza Car brand:Bugatti Car model:Chiron Make year:2021]
  ```
+```bash
+ go run basicHttps.go
+```
+<a href="https://ibb.co/tQGQjb1"><img src="https://i.ibb.co/tQGQjb1/screenshot.png" alt="screenshot" border="0"  /></a>
+
+```bash
+ go run main.go
+```
+<a href="https://ibb.co/bH6Bz6t"><img src="https://i.ibb.co/TKw8mwy/parseee.png" alt="parseee" border="0"></a>
+
+```bash
+ go run insertData.go
+```
+<a href="https://ibb.co/r6S2F1G"><img src="https://i.ibb.co/Sn8w59X/mobile.png" alt="mobile" border="0"></a>
 ## 🔗 Connect with me
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Ali15700)
 
